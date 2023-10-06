@@ -1,8 +1,0 @@
-# The Docker image that will be used to build your app
-image: node
-
-deploy:
-  script:
-    - echo "Deploying"
-  only:
-    - master
